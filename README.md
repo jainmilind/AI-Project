@@ -25,5 +25,31 @@ We have used the dataset <b>breast_cancer</b> which is present in sklearn.datase
 Although we had to use <b>sonar.csv</b> in PSOLDA.
 
 
-### Analysis and comparative study
-In the project we have seen how AI techniques like <b>Genetic Algorithm </b>, <b>Particle Swarm Optimization</b> and <b>Ant colony optimization</b> improve rules for classifiers and even outperform the most popular machine learning techniques like LDA and KNN. We also looked over novel Techniques like bagging classifier and fuzzy KNN which outperforms the baseline classifiers in various aspects. In conclusion, the integration of AI techniques can significantly enhance the accuracy and efficiency of classification rules, leading to better decision-making and improved outcomes in various fields. 
+## Analysis and comparative study
+</br>
+
+### Tabulated Summary of results
+|Technique|Accuracy|
+|----|---|
+|Ant Colony Optimisation|0.9415204678362573|
+|Particle Swarm Optimisation|0.8095238095238095|
+|Linear Discriminant Analysis|0.6904761904761905|
+|Genetic Algorithm|0.9596000000000000|
+|baseline KNN|0.9122807017543859|
+|Fuzzy KNN|0.9239766081871345|
+|Bagging Classifiers|0.9649122807017544|
+
+The following features were selected using the Ant Colony Optimsation. </br> 
+Selected features: ['mean radius', 'mean texture', 'mean perimeter', 'radius error', 'perimeter error', 'area error', 'worst perimeter']
+
+## Heatmap of correlation of features
+![plot](https://i.ibb.co/GdpqrT1/output.png)
+
+As we can see ACO tries to find features which are independent to each other and capture the true characterstics of the dataset.
+
+### Population fitness in GA
+As seen from the generation vs fitness plot Fitness score majorly increases with generations although there are some mutations so sometimes fitness scores drops.
+
+From the tabulated results above, we can clearly see that Bagging Classifiers and Genetic Algorithm performed the best when compared to the other techniques. Overall every AI technique outperformed every other machine learning technique used in the project.
+
+In the project we have seen how AI techniques like <b>Genetic Algorithm </b>, <b>Particle Swarm Optimization</b> and <b>Ant colony optimization</b> improve rules for classifiers and even outperform the most popular machine learning techniques like LDA and KNN. We also looked over novel Techniques like bagging classifier and fuzzy KNN which outperforms the baseline classifiers in various aspects. In conclusion, the integration of AI techniques can significantly enhance the accuracy and efficiency of classification rules, leading to better decision-making and improved outcomes in various fields.
