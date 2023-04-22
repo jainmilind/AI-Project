@@ -25,4 +25,5 @@ We have used the dataset <b>breast_cancer</b> which is present in sklearn.datase
 Although we had to use <b>sonar.csv</b> in PSOLDA.
 
 
-### Varition analysis and comparative study
+### Analysis and comparative study
+In the project we have seen how AI techniques like <b>Genetic Algorithm </b>, <b>Particle Swarm Optimization</b> and <b>Ant colony optimization</b> improve rules for classifiers and even outperform the most popular machine learning techniques like LDA and KNN. We also looked over novel Techniques like bagging classifier and fuzzy KNN which outperforms the baseline classifiers in various aspects. In conclusion, the integration of AI techniques can significantly enhance the accuracy and efficiency of classification rules, leading to better decision-making and improved outcomes in various fields. 
